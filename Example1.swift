@@ -110,7 +110,7 @@ func isPrime(num: Int) -> Bool {
 func averageTwoNumberRoundUp(firstNum: Int, secondNum: Int) -> Int {
     var avg:Float = 0.0
     avg = Float(firstNum + secondNum)/2
-    return Int(round(avg))
+    return Int(ceil(avg))
 }
-
+// using round would give you the right answer of rounding up since it always ends in 0.5 but ceil always rounds up
 //print(averageTwoNumberRoundUp(firstNum: 5, secondNum:6))
