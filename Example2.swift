@@ -1,3 +1,5 @@
+import Foundation
+
 // MARK: - QUESTIONS
 /// 1. Write a function that takes an array of numbers and returns an array with each of the numbers multiplied by 2
 func arrayMultipliedByTwo(original: [Int]) -> [Int] {
